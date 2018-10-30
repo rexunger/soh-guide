@@ -239,6 +239,8 @@ section {
 @media (max-width: 1024px){
 	.sg-menu {
 		background: #190B28;
+		height: 92vh;
+		overflow-y: scroll;
 	}
 }
 
@@ -279,7 +281,7 @@ section {
 	font-size: 18px;
 	font-weight: 500;
 	text-transform: capitalize;
-	line-height: .75;
+	line-height: .6;
 	opacity: .6;
 }
 
@@ -306,7 +308,8 @@ section {
 	.sg-menu ul li:nth-of-type(1),
 	.sg-menu ul li:nth-of-type(4),
 	.sg-menu ul li:nth-of-type(8),
-	.sg-menu ul li:nth-of-type(13) {
+	.sg-menu ul li:nth-of-type(12),
+	.sg-menu ul li:nth-of-type(17) {
 		border-top: 4px solid rgba(255,255,255,.08);
 	}
 
